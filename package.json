@@ -1,0 +1,15 @@
+{
+  "name": "checkweb",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.2",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
