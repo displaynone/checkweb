@@ -8,7 +8,7 @@ This script checks if a website is online and, in that case, sends a Telegram me
 ```
 TELEGRAM_BOT_TOKEN=your_bot_token
 TELEGRAM_CHAT_ID=your_chat_id
-WEBSITE=your_website_url
+WEBSITE=your_website_url|...|...
 ```
 
 
@@ -17,7 +17,7 @@ WEBSITE=your_website_url
   - Send a message from your user to the bot.
   - Open the `https://api.telegram.org/bot<TELEGRAM_BOT_TOKEN>/getUpdates` page.
   - Find your message and navigate to the `result->message->chat->id` key.
-- `WEBSITE`: The URL of the website you want to check.
+- `WEBSITE`: The URL of the website you want to check, or a list of urls joined by pipeline (`|`)
 
 ## Installation
 
